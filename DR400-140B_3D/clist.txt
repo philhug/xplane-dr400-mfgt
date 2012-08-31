@@ -1,0 +1,247 @@
+
+#Robin DR400-140B Dauphin Checklist (Version 2010.11.08)
+
+sw_checklist:Preflight Inspection
+sw_rcolsize:100
+sw_itemvoid:DR400-140B XPFR Checklist
+sw_item:Throttle|CLOSED:sim/flightmodel/engine/ENGN_thro:0
+sw_item:Starter Switch|OFF:sim/cockpit/engine/ignition_on:0
+sw_item:Battery Master|ON:sim/cockpit/electrical/battery_on:1
+sw_item:Other Electrical Switches|OFF
+sw_item:Avionics|OFF:sim/cockpit/electrical/avionics_on:0
+sw_item:Fuel Pump|OFF:sim/cockpit/engine/fuel_pump_on:0
+sw_item:Mixture|CUTOFF:sim/flightmodel/engine/ENGN_mixt:0
+sw_item:Panel Light|As Required
+sw_item:Flight Controls|CHECK
+sw_item:Flaps|UP:sim/flightmodel/controls/flaprqst:0
+sw_item:Parking Brake|SET:sim/flightmodel/controls/parkbrake:1
+sw_item:Request Clearance|OK
+sw_itemvoid:__________________________________
+sw_itemvoid:Next - Before Starting Engine
+
+sw_checklist:Before Starting Engine
+sw_rcolsize:100
+sw_item:Electrical consumers|OFF
+sw_item:Master switch and alternator|ON
+sw_item:Circuit Breakers|IN
+sw_item:Annunciator lights|DAY POSITION
+sw_item:Fuel Quantity|CHECK
+sw_item:Fuel Selector|OPEN:sim/cockpit/engine/fuel_tank_selector:4
+sw_item:Auxiliary Tank|As required
+sw_item:Carburetor heater|COLD:sim/flightmodel/engine/ENGN_heat:0
+sw_item:Mixture|RICH:sim/flightmodel/engine/ENGN_mixt:1
+sw_itemvoid:__________________________________
+sw_itemvoid:Next - Starting Engine
+
+sw_checklist:Starting Engine
+sw_rcolsize:100
+sw_item:Strobe|ON:sim/cockpit/electrical/strobe_lights_on:1
+sw_item:Nav Light|ON:sim/cockpit/electrical/nav_lights_on:1
+sw_item:Fuel Pump|ON:sim/cockpit/engine/fuel_pump_on:1
+sw_item:Magnetos|LEFT
+sw_item:Canopy|LOCKED
+sw_item:Throttle|Open 1-2 cm
+sw_item:Propeller Area|CLEAR
+sw_item:Starter|ENGAGED
+sw_item:Magnetos|BOTH
+sw_item:Power|1000-1200 rpm
+sw_item:Oil Pressure (within 30 sec)|GREEN
+sw_item:Engine Instruments|CHECK
+sw_item:Annunciator Panel|TEST
+sw_itemvoid:__________________________________
+sw_itemvoid:Next - Check after starting engine
+
+sw_checklist:Check after starting engine
+sw_rcolsize:100
+sw_item:Fuel Pump|OFF:sim/cockpit/engine/fuel_pump_on:0
+sw_item:Ammeter|GREEN
+sw_item:Annunciator lights|OFF except flaps
+sw_item:Strobe Light|OFF:sim/cockpit/electrical/strobe_lights_on:0
+sw_itemvoid:__________________________________
+sw_itemvoid:Next - Before Taxi
+
+sw_checklist:Before Taxi
+sw_rcolsize:100
+sw_item:Flaps|UP:sim/flightmodel/controls/flaprqst:.0
+sw_item:Ventilation, heat, defrost|As Required
+sw_item:Avionics|ON and SET:sim/cockpit/electrical/avionics_on:1
+sw_item:Atis|Received
+sw_item:Directional Gyro|SET
+sw_itemvoid:Request Taxi Clearance|OK
+sw_itemvoid:__________________________________
+sw_itemvoid:Next - Taxi
+
+sw_checklist:Taxi
+sw_rcolsize:140
+sw_item:Taxi Light|ON:sim/cockpit/electrical/taxi_light_on:1
+sw_item:Brakes and Steering|CHECK
+sw_item:Magnetic Compass|Free, Full, Fluid
+sw_item:Gyros|CHECK
+sw_itemvoid:__________________________________
+sw_itemvoid:Next - Run-up
+
+sw_checklist:Run-up
+sw_rcolsize:140
+sw_item:Parking Brake|SET:sim/flightmodel/controls/parkbrake:1
+sw_item:Power|1000-1200 rpm
+sw_item:Taxi Light|OFF
+sw_item:Engine Instruments|GREEN ARCS
+sw_item:Canopy|Secured
+sw_item:Mixture|RICH:sim/flightmodel/engine/ENGN_mixt:1
+sw_item:Power|2000 rpm
+sw_item:Gyro-suction|CHECK
+sw_item:Anmeter|CHECK
+sw_item:Magnetos|CHECK L/R then Both
+sw_item:Carburetor heater:CHECK
+sw_item:Mixture|CHECK:sim/flightmodel/engine/ENGN_mixt:1
+sw_item:Idle, then Power|600, then 1100 rpm
+sw_itemvoid:__________________________________
+sw_itemvoid:Next - Check Before Departure
+
+sw_checklist:Check Before Departure
+sw_rcolsize:140
+sw_item:Fuel Quantity|CHECK
+sw_item:Fuel Selector|OPEN:sim/cockpit/engine/fuel_tank_selector:4
+sw_item:Auxiliary Tank|As required
+sw_item:Mixture|RICH:sim/flightmodel/engine/ENGN_mixt:1
+sw_item:Carburetor heater:COLD
+sw_item:Magnetos|BOTH
+sw_item:Controls|FREE
+sw_item:Elevation Trim|T/O position
+sw_item:Flaps|T/O position
+sw_item:Flight Instruments & avionics|CHECK
+sw_item:3 Speeds|Vr Vx Vy
+sw_item:Departure Routing|Hdg Alt
+sw_item:Emergency Proc.|BRIEFED
+sw_itemvoid:__________________________________
+sw_itemvoid:Next - Before and Line-up
+
+sw_checklist: Before and Line-up
+sw_rcolsize:120
+sw_item:Canopy|Secured
+sw_item:Landing Light|ON:sim/cockpit/electrical/landing_lights_on:1
+sw_item:Strobe Light|ON:sim/cockpit/electrical/strobe_lights_on:1
+sw_item:Avionics and X-Pander|SET
+sw_item:Fuel Pump|ON:sim/cockpit/engine/fuel_pump_on:1
+sw_item:Approach Sector|FREE
+sw_item:Wind|CHECK
+sw_itemvoid:__________________________________
+sw_itemvoid:Next - Take Off and Initial Climb
+
+sw_checklist:Take Off and Initial Climb
+sw_rcolsize:120
+sw_item:Directional Gyro|SET (Rwy Hdg)
+sw_item:Tile|CHECK
+sw_item:Parking Brake|RELEASE:sim/flightmodel/controls/parkbrake:0
+sw_item:T/O Power|FULL 2200 min
+sw_item:Speed Rise|CHECK
+sw_item:Rotation Speed|REACHED
+sw_item:Attitude & Climb Speed|OK
+sw_item:Flaps|UP:sim/flightmodel/controls/flaprqst:0
+sw_itemvoid:__________________________________
+sw_itemvoid:Next - Climb Check
+
+sw_checklist:Climb Check
+sw_rcolsize:120
+sw_item:Flaps|UP:sim/flightmodel/controls/flaprqst:0
+sw_item:Landing Light|OFF:sim/cockpit/electrical/landing_lights_on:0
+sw_item:Fuel Pump|OFF:sim/cockpit/engine/fuel_pump_on:0
+sw_item:Fuel Pressure|GREEN
+sw_itemvoid:__________________________________
+sw_itemvoid:Next - Cruise Check
+
+sw_checklist:Cruise Check & every 15 mn
+sw_rcolsize:120
+sw_item:Altimter|SET
+sw_item:Directional Gyro|CHECK
+sw_item:Engine Instruments|CHECK
+sw_item:Cruise Power Settings|CHECK
+sw_item:Mixture Setting|CHECK
+sw_itemvoid:Fuel Managment
+sw_item:Fuel Quantity|CHECK
+sw_item:Fuel Selector|OPEN:sim/cockpit/engine/fuel_tank_selector:4
+sw_item:Auxiliary Tank|As Required
+sw_itemvoid:__________________________________
+sw_itemvoid:Next - Descent for Approach
+
+sw_checklist:Descent for Approach
+sw_rcolsize:100
+sw_item:ATIS|RECEIVED
+sw_item:Approach Briefing|BRIEFED
+sw_item:Flight Instruments & Avionics|CHECK
+sw_item:Descent Power|SET
+sw_item:Carburetor Heater|As Required
+sw_item:Mixture Setting|ENRICHED
+sw_itemvoid:__________________________________
+sw_itemvoid:Next - Approach Preparation
+
+sw_checklist:Approach Preparation
+sw_rcolsize:120
+sw_item:Landing Lights|ON:sim/cockpit/electrical/landing_lights_on:1
+sw_item:Altimeter|SET
+sw_item:Directional Gyro|SET
+sw_item:Fuel Quantity|CHECK
+sw_item:Fuel Pump|ON:sim/cockpit/engine/fuel_pump_on:1
+sw_item:Auxiliary Tank|As required
+sw_item:Carburetor Heater|As Required
+sw_item:Mixture|RICH:sim/flightmodel/engine/ENGN_mixt:1
+sw_itemvoid:__________________________________
+sw_itemvoid:Next - Final Check
+
+sw_checklist:Final Check
+sw_rcolsize:120
+sw_item:Flaps Landing Position|OK
+sw_item:Carburetor heater:COLD:sim/flightmodel/engine/ENGN_heat:0
+sw_itemvoid:Final Speed|SET & TRIM
+sw_itemvoid:__________________________________
+sw_itemvoid:Next - Balked Landing
+
+sw_checklist:Balked Landing
+sw_rcolsize:120
+sw_item:Power|FULL THROTTLE:sim/flightmodel/engine/ENGN_thro:1.000
+sw_item:Carburetor heater:COLD:sim/flightmodel/engine/ENGN_heat:0
+sw_item:Attitude & Speed|ESTABLISHED
+sw_item:Flaps|T/O POSITION
+sw_itemvoid:__________________________________
+sw_itemvoid:Next - After Landing
+
+sw_checklist:After Landing
+sw_rcolsize:120
+sw_item:Strobe|OFF:sim/cockpit/electrical/strobe_lights_on:0
+sw_item:Landing Lights|OFF:sim/cockpit/electrical/landing_lights_on:0
+sw_item:Taxi lights|ON:sim/cockpit/electrical/taxi_light_on:1
+sw_item:X-Pander|STBY
+sw_item:Fuel Pump|OFF:sim/cockpit/engine/fuel_pump_on:0
+sw_item:Flaps|UP:sim/flightmodel/controls/flaprqst:0.000
+sw_itemvoid:__________________________________
+sw_itemvoid:Next - Engine Shut Down
+
+sw_checklist:Engine Shutdown
+sw_rcolsize:100
+sw_item:Parking Brake|SET:sim/flightmodel/controls/parkbrake:1
+sw_item:Throttle|1000
+sw_item:Taxi lights|OFF:sim/cockpit/electrical/taxi_light_on:0
+sw_item:Emergency Frequency|LISTENED
+sw_item:Avionics|OFF:sim/cockpit/electrical/avionics_on:0
+sw_item:Elevator Trim|T/O POSITION
+sw_item:Flaps|FULL DOWN
+sw_item:Canopy|Colsed & Secured
+sw_item:Mixture|CUTOFF:sim/flightmodel/engine/ENGN_mixt:0
+sw_item:Throttle|CLOSED:sim/flightmodel/engine/ENGN_thro:0
+sw_item:Magnetos|OFF
+sw_item:Keys|REMOVED
+sw_item:Navigation Lights|OFF:sim/cockpit/electrical/nav_lights_on:0
+sw_item:Battery|OFF:sim/cockpit/electrical/battery_on:0
+sw_item:Alternator|OFF:sim/cockpit/electrical/generator_on:0
+sw_itemvoid:__________________________________
+sw_itemvoid:Next - Parking
+
+sw_checklist:Parking
+sw_rcolsize:100
+sw_item:Keys|REMOVED
+sw_item:Battery|OFF:sim/cockpit/electrical/battery_on:0
+sw_item:Alternator|OFF:sim/cockpit/electrical/generator_on:0
+sw_item:Auxiliary Tank|CLOSED
+sw_item:Aircraft|SECURED
+sw_itemvoid:__________________________________
+sw_itemvoid:Bye !

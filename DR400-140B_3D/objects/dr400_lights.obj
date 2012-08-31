@@ -1,0 +1,18 @@
+I
+800
+OBJ
+
+TEXTURE	
+POINT_COUNTS	0 0 0 0
+
+
+LIGHT_NAMED	airplane_strobe		   0.0019    0.6182    2.4556
+
+####_group	Y_Group
+LIGHT_NAMED	airplane_nav_left	  -4.4062   -0.0152    0.5283
+LIGHT_NAMED	airplane_nav_right	   4.4138   -0.0149    0.5285
+####_group	Z_Group
+LIGHT_NAMED	airplane_taxi		  -2.2123   -0.3885    0.1178
+LIGHT_NAMED	airplane_landing	  -2.3654   -0.3887    0.1177
+
+# Built with Blender 2.48. Exported with XPlane2Blender 3.09.

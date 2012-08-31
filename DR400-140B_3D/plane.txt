@@ -1,0 +1,21 @@
+xplane_certified=9
+author=Cedric Dufour et l'équipe d'XPFR
+author_web=http://www.xpfr.org
+release=2
+release_date=2010 november
+
+plane_constructor=la société Avions Pierre Robin, rachetée par APEX Aviation.
+plane_type=DR400-140B
+plane_full_name=DR400-140B Dauphin 4
+plane_compagny=XPFR
+
+cruise_altitude=7000
+cruise_speed=120
+climb_rate=600
+maximum_range=900
+fuel_max_onboard=250
+fuel_max_consumption_hour=55
+
+climb_speed=92
+descent_rate=1000
+descent_speed=100
